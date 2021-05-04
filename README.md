@@ -1,1 +1,1 @@
-# Online-Course-Reg9istration
+# Online-Course-Registration
