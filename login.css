@@ -21,3 +21,7 @@ footer {
     float: left;
     height: 40vh;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
