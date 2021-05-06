@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-image: url("istockphoto-998444200-612x612.jpg");
     background-repeat: no-repeat;
@@ -17,4 +18,90 @@ a{
 nav{
     display: flex;
     justify-content: space-between;
+=======
+html{
+    /* background-image: url(/images/AB-GD-016-2.jpg); */
+    background-image: url(./images/blue-white-gradient-abstract-background_53876-60241.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Merienda', cursive;
+}
+#programming{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fee%2Fsearch%3Fk%3Dlight%2520blue%2520gradient%2520background&psig=AOvVaw2An3U8Bp8TSJPBqsaW50OD&ust=1620332396258000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDbl-aus_ACFQAAAAAdAAAAABAa);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: white; */
+    height: 60vh;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px 3px grey;
+}
+#programming img{
+    height: 60vh;
+    float: left;
+    border-radius: 5%;
+    margin-right: 10%;
+}
+#frameworks{
+
+    /* background-color: white; */
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fee%2Fsearch%3Fk%3Dlight%2520blue%2520gradient%2520background&psig=AOvVaw2An3U8Bp8TSJPBqsaW50OD&ust=1620332396258000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDbl-aus_ACFQAAAAAdAAAAABAa);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    margin-bottom: 10%;
+    text-align: right;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px 3px grey;
+}
+#frameworks img{
+    height: 60vh;
+    float:right;
+    width:40%;
+    margin-left: 10%;
+    border-radius: 5%;
+    
+}
+#units{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fee%2Fsearch%3Fk%3Dlight%2520blue%2520gradient%2520background&psig=AOvVaw2An3U8Bp8TSJPBqsaW50OD&ust=1620332396258000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDbl-aus_ACFQAAAAAdAAAAABAa);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    margin-bottom: 10%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px 3px grey;
+
+}
+#units img{
+    height: 60vh;
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+    border-radius: 5%;
+}
+#navigation{
+    /* background-color: blue;
+    opacity: 0.5; */
+    background-color: rgb(6, 6, 46);
+    padding-bottom:2%;
+
+}
+#navigation a{
+    color: white;
+    font-size: 150%;
+    margin-left: 15%;
+    text-decoration: none;  
+}
+footer{
+    background-color:  rgb(6, 6, 46);  
+    color: white;
+    text-align: center;
+}
+button{
+    background-color: rgb(6, 6, 46);
+    color: white;
+    font-family: 'Merienda', cursive;
+    
+>>>>>>> main
 }
