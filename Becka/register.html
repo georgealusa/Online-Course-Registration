@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="./register.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Merienda&family=Rokkitt:wght@200&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
 </head>
@@ -13,22 +13,22 @@
     <div id="header">
         <!-- <h1 id="head">STUDENT ONLINE REGISTRATION</h1> -->
             <nav>
-                <a href="index.html">HOME</a>
+                <a href="../index.html">HOME</a>
                 <span></span>            
-                <a href="courses.html">COURSES</a>
+                <a href="./courses.html">COURSES</a>
                 <span></span>
-                 <a href="login.html">LOGIN</a>
+                 <a href="../Ecline/login.html">LOGIN</a>
                 <span></span>
-                <a href="register.html">REGISTRATION</a>
+                <a href="./register.html">REGISTRATION</a>
             </nav>
     </div>
     <div id="signUp">
         <!-- <img id ="tech" src="images/istockphoto-1071467916-612x612.jpg" alt=""> -->
-        <form id="signUp" style="font-family: 'Merienda', cursive;">
+        <form id="signUp" style="font-family: 'Merienda', cursive;" onsubmit="return validate()" name="contactForm">
             <span></span><br>
-            <input type="text" name="fname" placeholder="Firstname"><br>
+            <input type="text" name="fname" placeholder="Firstname" required><br>
             <span></span><br>
-            <input type="text" name="lname" placeholder="Lasstname"><br>
+            <input type="text" name="lname" placeholder="Lastname"><br>
             <span></span><br>
             <input type="varchar" name="regno" placeholder="Registration No."><br>
             <span></span><br>
@@ -36,7 +36,7 @@
             <span></span><br>
             <input type="password" name="password" placeholder="Password"><br>
             <span></span><br>
-            <input type="password" name="confirm"  placeholder="Confirm paasword"><br>  
+            <input type="password" name="confirmPassword"  placeholder="Confirm password"><br>  
             <span></span><br>
             <button type="submit">Submit</button>
         </form>
@@ -45,6 +45,8 @@
         <p>elitetechschool@gmail.com</p>
         <p>Tell:0783946383</p>
     </footer>
+
+    <script src="./registration.js"></script>
     
 </body>
 </html>
