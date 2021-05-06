@@ -1,27 +1,45 @@
+body{
+    background-image: url(/images/istockphoto-1171506418-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    size: 100px;
+}
 footer {
-    text-align: center;
-    padding: 3px;
+    /* text-align: center; */
+    /* padding: 3px;
     background-color: rgb(6, 6, 46);
     color: silver;
     padding-bottom: 3%;
+    overflow-wrap: unset; */
+    
 }
 .header{
-    padding: 40px;
+    /* padding: 40px; */
     text-align: center;
-    background-color: rgb(6, 6, 46);
+    /* background-color: rgb(6, 6, 46); */
     color: silver;
+
 }
 .login{
     margin-bottom: 5%;
     margin-top: 2%;
     margin-left: 1%;
     margin-right: 1%;
+    color: white;
 }
 #icon{
     float: left;
     height: 40vh;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
+footer {
+    text-align: start;
+    /* background-color: rgb(6, 6, 46); */
+    color: silver;
+    /* padding-bottom: 3%; */
+    font-style: italic;
+    /* margin-bottom: 20%; */
+    padding-top: 30%;
+}
+.admin{
+    float: right;
 }
