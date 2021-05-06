@@ -16,19 +16,19 @@ form{
     background-color: rgb(6, 6, 46);
     border-radius: 2px;
     padding-bottom: 2%;
-    box-shadow: 5px 5px 5px rgb(6, 6, 46);
+    /* box-shadow: 5px 5px 5px rgb(6, 6, 46); */
     /* opacity: 0.5; */
 }
-form::before{
+/* form::before{
     
-}
+} */
 #signUp{
     margin-left:20%; 
     margin-top: 7%; 
     margin-right:20%; 
     height: 56vh;
     /* background-color: rgb(6, 6, 46 ); */
-    box-shadow: ;
+    /* box-shadow: 5px 5px 5px rgb(6, 6, 46); */
 }
 #tech{
     float: left;
