@@ -6,20 +6,8 @@ body {
     
 }
 
-footer {
-    /* text-align: center; */
-    /* padding: 3px;
-    background-color: rgb(6, 6, 46);
-    color: silver;
-    padding-bottom: 3%;
-    overflow-wrap: unset; */
-
-}
-
 .header {
-    /* padding: 40px; */
     text-align: center;
-    /* background-color: rgb(6, 6, 46); */
     color: silver;
 
 }
@@ -29,8 +17,6 @@ footer {
 }
 
 #navigation {
-    /* background-color: blue;
-    opacity: 0.5; */
     background-color: rgb(6, 6, 46);
     padding-bottom: 2%;
 
@@ -44,7 +30,6 @@ footer {
 }
 
 .smart {
-    /* background-image: url("./images/326-3269072_internet-cloud-svg-png-download-logo-information-technology-removebg-preview.png"); */
     background-image: url("/images/Doctor.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -57,16 +42,10 @@ footer {
 
 }
 
-.label{
-    color: white;
-    font-size:;
-}
-
 .smart label {
     color: black;
     font-size: 1.5em;
-    /* display: flex;
-    justify-content: space-between; */
+
 }
 
 .head-reg {

@@ -1,68 +1,50 @@
-*{
+* {
     font-family: 'Merienda', cursive;
 }
-.tech{
+
+.tech {
     background-image: url("/images/Poorer\ students.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
-    
 }
 
-.tech>h1{
+.tech>h1 {
     color: white;
     padding-top: 10%;
     font-family: 'Merienda', cursive;
-    font-weight: ;
+    
 }
 
-.tech>p{
+.tech>p {
     text-align: center;
     font-size: 2em;
-    color: white;
+    color: black;
 }
 
-#navigation{
-    /* background-color: blue;
-    opacity: 0.5; */
+#navigation {
     background-color: rgb(6, 6, 46);
-    padding-bottom:2%;
+    padding-bottom: 2%;
 
 }
-#navigation a{
+
+#navigation a {
     color: white;
     font-size: 150%;
     margin-left: 15%;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
-/* 
-html{
-    width: fit-content;
-    height: fit-content;
-} */
-body{
-    /* background-image: url('/images/student-one.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
-
-    /* width: 80%;
-    height: 80%;
-    opacity: 1; */
-}
-
-.img{
+.img {
     float: right;
     border-radius: 10px;
     padding-right: 10px;
     margin-top: 3%;
 }
 
-.about{
+.about {
     color: black;
-    /* margin-bottom: 30%; */
     margin-top: 5%;
     padding-top: 1%;
     padding-bottom: 200px;
@@ -72,19 +54,13 @@ body{
     margin-bottom: 10%;
     border-radius: 10px;
 }
-/* .description{
-    color: white; */
 
-a{
+a {
     color: black;
-    /* display: inline;
-    justify-content: space-evenly;*/
     margin-left: 10%;
     text-decoration: none;
-}    
-.landing{
-    /* justify-content: space-between; */
 }
+
 footer {
     padding-top: 200px;
     text-align: center;
@@ -93,28 +69,31 @@ footer {
     color: black;
     padding-bottom: 3%;
     font-style: italic;
-    
-} 
 
-footer p{
+}
+
+footer p {
     color: white;
 }
-.header{
+
+.header {
     /* padding: 40px; */
     text-align: center;
     /* background-color: rgb(6, 6, 46); */
     color: silver;
-    
+
 }
+
 #logo {
     margin-left: 30%;
     float: right;
-    
+
 }
-h1{
+
+h1 {
     color: goldenrod;
     font-weight: lighter;
     display: flex;
     justify-content: center;
-    font-family:cursive;
-}      
+    font-family: cursive;
+}

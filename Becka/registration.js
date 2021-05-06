@@ -1,10 +1,10 @@
-// function validate()
-// {
-//  if (document.contactform.fname.value === ""){
-// 	//  alert("please enter your first name");
-// 	//  document.contactform.user1.focus();
-// 	 return false;
-//  }
+function validate()
+{
+ if (document.contactform.fname.value === ""){
+	//  alert("please enter your first name");
+	//  document.contactform.user1.focus();
+	 return false;
+ }
  
 //  else if (document.contactform.lname.value === ""){
 // 	 alert("please enter your last name");
