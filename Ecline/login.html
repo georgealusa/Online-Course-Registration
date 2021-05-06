@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,76 @@
     <title>Document</title>
     <link rel="stylesheet" href="./login.css">
 </head>
+
 <body>
-    <div class="header">
-        <h1>STUDENT ONLINE REGISTRATION</h1>
-        <nav> 
-            <a href="index.html">HOME</a>
-            <a href="courses.html">COURSES</a>
-            <a href="register.html">REGISTER</a>
-            <a href="login.html">LOGIN</a>
+    <div id="navigation">
+        <nav>
+            <nav>
+                <a href="../index.html">HOME</a>
+                <span></span>
+                <a href="../Becka/courses.html">COURSES</a>
+                <span></span>
+                <a href="../Ecline/login.html">LOGIN</a>
+                <span></span>
+                <a href="../Becka/register.html">REGISTRATION</a>
+            </nav>
         </nav>
     </div>
-    <div class="login">
-        <img id="icon" src="./images/student_icon-512.webp" alt="">
-        <form action="/student-profile.html">
-            <label for="fname"><b>First Name:</b></label><br>
-            <input type="text" id="fname" name="fname" value=""><br><br>
-            <label for="lname"><b>Last Name:</b></label><br>
-            <input type="text" id="lname" name="lname" value=""><br><br>
-            <label for="email"><b>Email:</b></label><br>
-            <input type="text" id="email" name="" value=""><br>
-            <input type="submit" value="Submit">
+
+    <div>
+        <h1 class="head-reg">STUDENT ONLINE REGISTRATION</h1>
+
+    </div>
+    <!-- <div class="login">
+        <img id="icon" src="/images/374224.png" alt=""> -->
+    <div class="smart">
+        <form name="contactform">
+            <label for="firstName">First Name: </label>
+            <input type='text' name="user1" placeholder='Enter your first name' class="width">
+            <label for="secondName">Middle Name:</label>
+            <input type='text' placeholder='Enter your second name' class="width" name="user2">
+            <label for="thirdName">Last Name:</label>
+            <input type='text' placeholder='Enter your last name' class="width" name="user3">
+            </br>
+            <br>
+            <label for="email"> Email</label>
+           <br><input type='email' name="email" placeholder='Email' class="width">
+            <br />
+            <br />
+            <label for="password">New Password*</label>
+            <br><input type='password' name="pass1" placeholder='Enter password' class="width">
+            </br>
+            <br />
+            <label for="confirmPassword">Confirm Password</label>
+            <br><input type='password' name="pass2" placeholder='Enter password' class="width">
+            <br>
+            <br>
+            <label for="birthDay">Birthday</label>
+            <br><input type='date' name="birthday" placeholder='Enter the date' class="width">
+            <br>
+            <br />
+            <label for="telephone">Phone</label>
+            <br><input type='telephone' name="number" placeholder='Enter the number' class="width">
+            <br>
+            <div class="button">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+
         </form>
     </div>
-<footer>
-    <p>
-        Collaborators:beckaeclinegeorgemichael@moringaschool.com
-    </p>
-</footer>
+    <!-- </div> -->
+    <footer>
+        <p>
+            Contact Us on:
+            <ul>
+                <li><a href="contact"> elitetech@gmail.com </a></li>
+                <li><a href="name">jerutokoech8@gmail.com</a></li>
+                <li><a href="contact">georgealusa@gmail.com </a></li>
+            </ul>
+            <div class="admin">Reach Admin on:<a href="teleNo">020024592</a></div>
+        </p>
+
+    </footer>
 </body>
+
 </html>
-
-
