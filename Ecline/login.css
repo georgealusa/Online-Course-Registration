@@ -1,7 +1,9 @@
 body {
+    
     background-repeat: no-repeat;
     background-size: cover;
     size: 100px;
+    
 }
 
 footer {
@@ -42,18 +44,29 @@ footer {
 }
 
 .smart {
-    background-image: url("./images/326-3269072_internet-cloud-svg-png-download-logo-information-technology-removebg-preview.png");
+    /* background-image: url("./images/326-3269072_internet-cloud-svg-png-download-logo-information-technology-removebg-preview.png"); */
+    background-image: url("/images/Doctor.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: ;
+    background-size: cover;
     font-size: 20px;
     color: white;
+    text-align: center;
+    margin-top: 30px;
+    
 
+}
+
+.label{
+    color: white;
+    font-size:;
 }
 
 .smart label {
     color: black;
-    font-size: 15px;
+    font-size: 1.5em;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 .head-reg {
@@ -63,8 +76,8 @@ footer {
 }
 
 .width {
-    width: 300px;
-    height: 30px;
+    width: 400px;
+    height: 40px;
 }
 
 #one {
@@ -108,8 +121,6 @@ footer {
     padding-top: 3px;
     margin-top: 4%;
 }
-
-30%;
 
 .admin {
     float: right;

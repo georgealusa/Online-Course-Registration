@@ -1,5 +1,26 @@
 *{
-    color: black;
+    font-family: 'Merienda', cursive;
+}
+.tech{
+    background-image: url("/images/Poorer\ students.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    
+}
+
+.tech>h1{
+    color: white;
+    padding-top: 10%;
+    font-family: 'Merienda', cursive;
+    font-weight: ;
+}
+
+.tech>p{
+    text-align: center;
+    font-size: 2em;
+    color: white;
 }
 
 #navigation{
@@ -36,6 +57,7 @@ body{
     float: right;
     border-radius: 10px;
     padding-right: 10px;
+    margin-top: 3%;
 }
 
 .about{
@@ -44,6 +66,11 @@ body{
     margin-top: 5%;
     padding-top: 1%;
     padding-bottom: 200px;
+    font-size: 1.3em;
+    box-shadow: 5px 5px 5px 3px grey;
+    height: 40vh;
+    margin-bottom: 10%;
+    border-radius: 10px;
 }
 /* .description{
     color: white; */
