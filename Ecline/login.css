@@ -30,7 +30,7 @@ body {
 }
 
 .smart {
-    background-image: url("/images/Doctor.jpg");
+    background-image: url("Doctor.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
