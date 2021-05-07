@@ -3,7 +3,7 @@
 }
 
 .tech {
-    background-image: url("/images/Poorer\ students.jpeg");
+    background-image: url("Poorer\ students.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -14,7 +14,7 @@
     color: white;
     padding-top: 10%;
     font-family: 'Merienda', cursive;
-    
+
 }
 
 .tech>p {
