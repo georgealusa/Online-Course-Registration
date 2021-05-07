@@ -96,9 +96,8 @@ function validate()
 // // 	var myName = document.getElementById("myName").value;
 // // 	console.log(myName);
 // // }
- 
+}
 
-function validate() {
-	var firstName = document.contactForm.fname.value;
-	console.log(firstName);
+function validateForm() {
+	
 }
