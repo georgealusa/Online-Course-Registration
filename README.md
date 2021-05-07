@@ -26,7 +26,7 @@ No bugs.
 ### Technologies Used 
 
 
-HTML,CSS.
+HTML,CSS and JAVASCRIPT
 
 ## Support and contact details
 
